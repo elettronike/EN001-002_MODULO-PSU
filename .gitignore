@@ -8,9 +8,6 @@ production
 *.kicad_sch-bak
 
 
-# Temporary Lock files 
-*.lck
-
 # Cache to speed up loading of footprint libraries. 
 fp-info-cache
 
@@ -18,3 +15,8 @@ fp-info-cache
 *-backups
 
 *.pdf
+
+# Temporary files
+# Lock files
+*.lck
+fabrication-toolkit-options.json

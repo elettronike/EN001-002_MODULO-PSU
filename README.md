@@ -18,19 +18,16 @@ Kikad production files are generated using the kicad [CLI interface](https://doc
 
 the command `make` will generate the production file in the folder *release*:
 
-| ID | Document                 | Format |
-| :-: | :----------------------- | :----- |
-| 1 | BOM with JLCPCB template | CSV    |
-| 2 | Gerber files             | IPCxxx |
-| 3 | Drill Files              | .drl   |
-| 4 | Schematic                | PDF    |
-| 5 | Manufacturing notes      | PDF    |
-
-
-
-
-
+| ID | Document                   | Format |
+| :-: | :------------------------- | :----- |
+| 1 | BOM with JLCPCB template   | CSV    |
+| 2 | Gerber files               | IPCxxx |
+| 3 | Drill Files                | .drl   |
+| 4 | Schematic                  | PDF    |
+| 5 | Manufacturing Instructions | PDF    |
 
 ## TODO
 
 - [ ] Fix the variable override: `-D Revision=1.2`
+- [ ] # Reference,Value,Case,MNFR-1,MNFR-1-PN,SUPP-1,SUPP-1-CODE,SUPP-1-UNIT-PRICE ,$${QUANTITY},$${DNP}
+- [ ]

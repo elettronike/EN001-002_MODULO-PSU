@@ -4,16 +4,24 @@ DATE= $$(date '+%Y-%m-%d')
 VER = 1.1
 REL = release-${VER}-[${DATE}]
 
-
+kicad-version = $$(kicad-cli version) 
 
 all: fabrication
 
-release: release-dir release-note schematic manufacturing bom
+release: schematic fabrication
 
-fabrication: schematic manufacturing gerber drill bom assembly-jlcpcb
+fabrication: manufacturing gerber drill bom assembly-jlcpcb
+
+sources: release-dir release-note
+	echo "\n## Project Source Files (PDF)\n" >> ./${REL}/release_notes.md
+
+	cp ${PRJ}.kicad_sch ${REL}/sources
+	cp ${PRJ}.kicad_pro ${REL}/sources
+	cp ${PRJ}.kicad_pcb ${REL}/sources
+	cp makefile ${REL}/sources
 
 schematic: release-dir release-note
-	echo "\n## SHEMATIC (PDF)\n" >> ./${REL}/release_notes.md
+	echo "\n## SCHEMATIC (PDF)\n" >> ./${REL}/release_notes.md
 	
 	kicad-cli sch export pdf -o ${REL}/${PRJ}_V${VER}_SCH.pdf \
 	-D Revision=1.2 --no-background-color \
@@ -73,10 +81,9 @@ assembly-jlcpcb: release-dir release-note
 
 release-note: release-dir release-note 
 	touch ./${REL}/release_notes.md
-	echo "# ${PRJ} Release V${VER} \n" 	> ./${REL}/release_notes.md
-	echo "Kicad Version: " 	>> ./${REL}/release_notes.md
-	kicad-cli version >> ./${REL}/release_notes.md	
-	echo " \n\n" >> ./${REL}/release_notes.md
+	echo "# ${PRJ} Release V${VER}" > ./${REL}/release_notes.md
+	echo "Release Date: ${DATE}   " >> ./${REL}/release_notes.md
+	echo "Kicad Version: ${kicad-version}">> ./${REL}/release_notes.md
 
 release-dir: 
 	mkdir -p ${REL}
@@ -91,4 +98,4 @@ clean:
 clean-all:
 	rm -rf ${REL}
 
-.PHONY: clean clean-all release-dir release-note
+.PHONY: clean clean-all release-dir release-note sources fabrication release

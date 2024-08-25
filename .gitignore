@@ -1,6 +1,7 @@
 release*/
 
-production
+*.zip
+
 
 # Local settings for the current project
 *.kicad_prl

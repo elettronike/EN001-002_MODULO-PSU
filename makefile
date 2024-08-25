@@ -18,6 +18,7 @@ sources: release-dir release-note
 	cp ${PRJ}.kicad_sch ${REL}/sources
 	cp ${PRJ}.kicad_pro ${REL}/sources
 	cp ${PRJ}.kicad_pcb ${REL}/sources
+	cp pagelayout_ev_6.kicad_wks ${REL}/sources
 	cp makefile ${REL}/sources
 
 schematic: release-dir release-note

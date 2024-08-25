@@ -12,7 +12,7 @@ release: release-dir release-notes schematic manufacturing bom
 fabrication: release-dir release-notes schematic manufacturing gerber drill bom
 
 schematic:
-	echo "\n## SHEMATIC (PDF)\n" >> ./${REL}/fabrication/release_notes.md
+	echo "\n## SHEMATIC (PDF)\n" >> ./${REL}/release_notes.md
 	
 	kicad-cli sch export pdf -o ${REL}/${PRJ}_V${VER}_SCH.pdf \
 	-D Revision=1.2 --no-background-color \
@@ -41,6 +41,8 @@ bom:
 	kicad-cli sch export bom -o ${REL}/fabrication/${PRJ}_V${VER}_BOM.csv \
 	--group-by Value --fields 'Reference,Value,Case,MNFR-1,MNFR-1-PN,SUPP-1,SUPP-1-CODE,SUPP-1-UNIT-PRICE ,$${QUANTITY},$${DNP}' \
 	${PRJ}.kicad_sch >> ./${REL}/release_notes.md 
+
+
 
 manufacturing:
 	echo "\n## Manufacturing Instructions \n" >> ./${REL}/release_notes.md

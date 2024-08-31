@@ -22673,15 +22673,15 @@
 	(symbol
 		(lib_id "00_EV_DATABASE:SWITCH/SW_Slide_SPDT_Angled")
 		(at 31.75 147.32 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ae3a9bb7-30fa-4e5a-a982-c221c3480760")
 		(property "Reference" "SW1"
-			(at 31.75 138.43 0)
+			(at 31.75 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22689,7 +22689,7 @@
 			)
 		)
 		(property "Value" "SK12D07VG3"
-			(at 31.75 140.97 0)
+			(at 31.75 153.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22706,7 +22706,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 31.75 154.94 0)
+			(at 31.75 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)

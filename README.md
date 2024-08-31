@@ -28,6 +28,8 @@ the command `make` will generate the production file in the folder *release*:
 
 ## TODO
 
-- [ ] Fix the variable override: `-D Revision=1.2`
-- [ ] # Reference,Value,Case,MNFR-1,MNFR-1-PN,SUPP-1,SUPP-1-CODE,SUPP-1-UNIT-PRICE ,$${QUANTITY},$${DNP}
-- [ ]
+- [ ] 	Fix the variable override: `-D Revision=1.2`
+- [X] 	Reference,Value,Case,MNFR-1,MNFR-1-PN,SUPP-1,SUPP-1-CODE,SUPP-1-UNIT-PRICE ,
+- [ ] 	testo di prova
+	 	lungo
+- [ ] 	secondo  esto

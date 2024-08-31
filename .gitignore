@@ -8,13 +8,13 @@ release*/
 
 *.kicad_sch-bak
 
-
 # Cache to speed up loading of footprint libraries. 
 fp-info-cache
 
 # Folder containg project backups
 *-backups
-
+*autosave*
+*auto_saved*
 *.pdf
 
 # Temporary files

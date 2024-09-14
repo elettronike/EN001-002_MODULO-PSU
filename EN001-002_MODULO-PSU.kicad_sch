@@ -19866,7 +19866,8 @@
 	)
 	(symbol
 		(lib_id "00EN_DB:IC_LOGIC/74HC132D,653")
-		(at 154.94 134.62 180)
+		(at 154.94 134.62 0)
+		(mirror y)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -19874,7 +19875,7 @@
 		(dnp no)
 		(uuid "7f93724a-b619-4929-a9e5-1e9e3938735d")
 		(property "Reference" "U2"
-			(at 154.94 140.208 0)
+			(at 154.94 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19882,7 +19883,7 @@
 			)
 		)
 		(property "Value" "74HC132D,653"
-			(at 154.9483 140.97 0)
+			(at 154.9483 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19900,7 +19901,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS132"
-			(at 154.94 142.24 0)
+			(at 154.94 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19918,7 +19919,7 @@
 			)
 		)
 		(property "Sim.Library" "/home/fabio/Documents/03_KICAD_DEVELOPEMENT/EN_KICAD_LIBRARY/symbols/NAND_ST.cir"
-			(at 154.94 144.78 0)
+			(at 154.94 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19927,7 +19928,7 @@
 			)
 		)
 		(property "Sim.Name" "74HC132"
-			(at 146.05 149.86 0)
+			(at 146.05 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19936,7 +19937,7 @@
 			)
 		)
 		(property "Sim.Device" "SUBCKT"
-			(at 156.21 149.86 0)
+			(at 156.21 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19945,7 +19946,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=1A 2=1B 3=1OUT 4=2A 5=2B 6=2OUT 7=AGND 8=3OUT 9=3A 10=3B 11=4OUT 12=4A 13=5B 14=VCC"
-			(at 153.67 147.32 0)
+			(at 153.67 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)

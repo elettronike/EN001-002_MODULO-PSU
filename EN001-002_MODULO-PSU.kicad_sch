@@ -8739,6 +8739,12 @@
 		(uuid "05106f6a-f20f-4b16-a45c-f78b14a65ecb")
 	)
 	(junction
+		(at 91.44 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "054ce58f-7cb5-4fa7-b6de-c28b93b06095")
+	)
+	(junction
 		(at 252.73 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8787,16 +8793,16 @@
 		(uuid "1e7662da-698d-41b6-bdb7-91b008aa4267")
 	)
 	(junction
+		(at 82.55 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1fbcbdef-235f-47d2-a67d-b7ed96a625f2")
+	)
+	(junction
 		(at 113.03 149.86)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2092bcf6-0e31-4a3d-9826-e2bce4718c41")
-	)
-	(junction
-		(at 91.44 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2751961d-4d9e-4592-b63a-26659c9cd871")
 	)
 	(junction
 		(at 132.08 175.26)
@@ -8821,12 +8827,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3fa5d667-34b7-4a20-b58a-d45ce3bdbb5e")
-	)
-	(junction
-		(at 83.82 39.37)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "40bd8ec0-01af-4eb4-87f5-a46fd1b8899e")
 	)
 	(junction
 		(at 139.7 110.49)
@@ -8877,6 +8877,12 @@
 		(uuid "76319683-8a0c-4680-981e-0d2bc7424e4b")
 	)
 	(junction
+		(at 82.55 45.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "77caf79e-0542-46d7-81a7-a53426cab145")
+	)
+	(junction
 		(at 166.37 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8887,6 +8893,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "837177e8-eb4c-435f-b271-5bcab1b782c3")
+	)
+	(junction
+		(at 82.55 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "88d9f16f-c520-4c0c-a25f-2c6a99672d2e")
 	)
 	(junction
 		(at 208.28 93.98)
@@ -8971,12 +8983,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d05a6e36-b6a2-4c15-9421-11b5b775a859")
-	)
-	(junction
-		(at 83.82 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "db153b5b-0332-4645-bb9a-e6dec7222c18")
 	)
 	(junction
 		(at 113.03 171.45)
@@ -9218,16 +9224,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 55.88) (xy 91.44 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c8f5323-8e1e-4e4f-9884-460c65903443")
-	)
-	(wire
-		(pts
 			(xy 227.33 129.54) (xy 218.44 129.54)
 		)
 		(stroke
@@ -9255,16 +9251,6 @@
 			(type default)
 		)
 		(uuid "0eeede54-e579-4705-9956-7c872ac7fcf7")
-	)
-	(wire
-		(pts
-			(xy 86.36 45.72) (xy 83.82 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f3ded57-0090-44e7-9ca5-dedb8f8e27e6")
 	)
 	(wire
 		(pts
@@ -9528,7 +9514,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 30.48) (xy 83.82 39.37)
+			(xy 82.55 30.48) (xy 82.55 39.37)
 		)
 		(stroke
 			(width 0)
@@ -9598,6 +9584,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 54.61) (xy 91.44 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f5e009b-1490-426e-ae74-94aa28df12e1")
+	)
+	(wire
+		(pts
 			(xy 262.89 102.87) (xy 262.89 107.95)
 		)
 		(stroke
@@ -9645,6 +9641,16 @@
 			(type default)
 		)
 		(uuid "30e18398-10c5-40e8-bbc2-c14fb833944c")
+	)
+	(wire
+		(pts
+			(xy 82.55 53.34) (xy 82.55 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30f081f9-2d13-4283-aa8e-d61c0a32f25c")
 	)
 	(wire
 		(pts
@@ -9788,6 +9794,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 30.48) (xy 134.62 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dd068b9-321f-4ee3-9343-ea72ea7c4136")
+	)
+	(wire
+		(pts
 			(xy 162.56 132.08) (xy 163.83 132.08)
 		)
 		(stroke
@@ -9805,16 +9821,6 @@
 			(type default)
 		)
 		(uuid "3ec9b1e2-f3a7-4efa-955d-55286d2ea727")
-	)
-	(wire
-		(pts
-			(xy 100.33 54.61) (xy 110.49 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f04e899-6c4f-407c-a117-4b028181d631")
 	)
 	(wire
 		(pts
@@ -10108,16 +10114,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 39.37) (xy 86.36 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "591bdd07-e2aa-49a4-a935-b4e6d8320739")
-	)
-	(wire
-		(pts
 			(xy 185.42 137.16) (xy 194.31 137.16)
 		)
 		(stroke
@@ -10355,6 +10351,16 @@
 			(type default)
 		)
 		(uuid "6e0a61eb-3aba-4108-b0b7-7690edaf130a")
+	)
+	(wire
+		(pts
+			(xy 82.55 39.37) (xy 86.36 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e2645d5-b90d-4a1c-93b2-2e4190659d52")
 	)
 	(wire
 		(pts
@@ -10698,6 +10704,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 48.26) (xy 82.55 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8ded1611-6f70-4901-a90f-93a2accd54f9")
+	)
+	(wire
+		(pts
 			(xy 201.93 97.79) (xy 201.93 95.25)
 		)
 		(stroke
@@ -10808,7 +10824,7 @@
 	)
 	(wire
 		(pts
-			(xy 69.85 30.48) (xy 83.82 30.48)
+			(xy 69.85 30.48) (xy 82.55 30.48)
 		)
 		(stroke
 			(width 0)
@@ -10858,16 +10874,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 54.61) (xy 95.25 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f799fe4-f5aa-44c8-94a5-1ef29f218cb0")
-	)
-	(wire
-		(pts
 			(xy 40.64 149.86) (xy 36.83 149.86)
 		)
 		(stroke
@@ -10888,7 +10894,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 54.61) (xy 91.44 53.34)
+			(xy 91.44 53.34) (xy 91.44 54.61)
 		)
 		(stroke
 			(width 0)
@@ -10925,6 +10931,16 @@
 			(type default)
 		)
 		(uuid "a38b3c6f-1a37-49d3-a6e1-79e51f16a71b")
+	)
+	(wire
+		(pts
+			(xy 82.55 45.72) (xy 86.36 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a520af31-c6ae-47aa-bdc1-6897f446e285")
 	)
 	(wire
 		(pts
@@ -11458,7 +11474,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 45.72) (xy 83.82 39.37)
+			(xy 82.55 45.72) (xy 82.55 39.37)
 		)
 		(stroke
 			(width 0)
@@ -11658,6 +11674,16 @@
 	)
 	(wire
 		(pts
+			(xy 91.44 54.61) (xy 91.44 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f48a2c0e-2502-40bc-a1bd-aa2b3abb5edb")
+	)
+	(wire
+		(pts
 			(xy 261.62 142.24) (xy 266.7 142.24)
 		)
 		(stroke
@@ -11675,16 +11701,6 @@
 			(type default)
 		)
 		(uuid "f76dfde2-4c05-4d64-bfc0-38037a33bdd0")
-	)
-	(wire
-		(pts
-			(xy 83.82 30.48) (xy 134.62 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f7d27215-e883-4d7a-8d9a-a2bdfd830368")
 	)
 	(wire
 		(pts
@@ -12579,17 +12595,6 @@
 		(uuid "f35aa59f-c1ec-4c67-9d40-5a991b3e6999")
 	)
 	(label "VLOGIC"
-		(at 110.49 54.61 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f365f45e-f81c-403b-918a-d20658e9ecf6")
-	)
-	(label "VLOGIC"
 		(at 55.88 144.78 180)
 		(fields_autoplaced yes)
 		(effects
@@ -12649,7 +12654,7 @@
 	)
 	(symbol
 		(lib_id "00_EV_DATABASE:Res-SMD/0805_10k")
-		(at 97.79 54.61 90)
+		(at 82.55 50.8 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12658,23 +12663,25 @@
 		(fields_autoplaced yes)
 		(uuid "04bd56df-6c7d-4b17-8758-5e3fddb121a9")
 		(property "Reference" "R21"
-			(at 97.79 49.53 90)
+			(at 85.09 49.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Value" "10k"
-			(at 97.79 52.07 90)
+			(at 85.09 52.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 97.79 54.61 0)
+			(at 82.55 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12683,7 +12690,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 97.79 54.61 0)
+			(at 82.55 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12692,7 +12699,7 @@
 			)
 		)
 		(property "Description" "Thin Film Resistor 10kΩ 125mW 150V ±1% ±100ppm/℃ "
-			(at 97.79 54.61 0)
+			(at 82.55 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12701,7 +12708,7 @@
 			)
 		)
 		(property "MNFR-1" "UNI-ROYAL"
-			(at 97.79 54.61 0)
+			(at 82.55 50.8 0)
 			(show_name yes)
 			(effects
 				(font
@@ -12711,7 +12718,7 @@
 			)
 		)
 		(property "MNFR-1-PN" "0805W8F1002T5E"
-			(at 97.79 54.61 0)
+			(at 82.55 50.8 0)
 			(show_name yes)
 			(effects
 				(font
@@ -12721,7 +12728,7 @@
 			)
 		)
 		(property "SUPP-1" "LCSC"
-			(at 97.79 54.61 0)
+			(at 82.55 50.8 0)
 			(show_name yes)
 			(effects
 				(font
@@ -12731,7 +12738,7 @@
 			)
 		)
 		(property "SUPP-1-CODE" "C17414"
-			(at 97.79 54.61 0)
+			(at 82.55 50.8 0)
 			(show_name yes)
 			(effects
 				(font
@@ -12741,7 +12748,7 @@
 			)
 		)
 		(property "Case" "0805"
-			(at 97.79 54.61 0)
+			(at 82.55 50.8 0)
 			(show_name yes)
 			(effects
 				(font
@@ -12751,7 +12758,7 @@
 			)
 		)
 		(property "STOCK" "1000"
-			(at 97.79 54.61 0)
+			(at 82.55 50.8 0)
 			(show_name yes)
 			(effects
 				(font
@@ -12761,7 +12768,7 @@
 			)
 		)
 		(property "SUPP-1-UNIT-PRICE" "0.0013"
-			(at 97.79 54.61 0)
+			(at 82.55 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)

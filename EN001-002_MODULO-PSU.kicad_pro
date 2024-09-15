@@ -495,9 +495,7 @@
       "/VLOGIC": "rgb(0, 132, 0)",
       "/VPOW": "rgb(0, 72, 72)"
     },
-    "netclass_assignments": {
-      "/VLOGIC": "VLOGIC"
-    },
+    "netclass_assignments": null,
     "netclass_patterns": []
   },
   "pcbnew": {
